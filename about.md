@@ -5,7 +5,7 @@ layout: page
 excerpt: I'm student of mathematics from Yildiz Technical University, living in Istanbul, Turkey. This blog is mostly about mathematics, statistics and machine learning. Sometimes I may write about other things as well.
 comments: false
 ---
-
+Hello world
 
 **may u needs ✨**
 

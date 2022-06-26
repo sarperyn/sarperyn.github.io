@@ -1,7 +1,6 @@
 # Site settings
 title: sarperyn # site title
-description: >- # site description
-Articles about statistics, mathematics, machine learning
+description: Articles about statistics, mathematics, machine learning >- # site description
 lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -17,8 +16,8 @@ author:
   github: sarperyn # github username
   twitter: sarperyn # twitter username
   #facebook: facebook_username # facebook username
-  email: sarper.yurtseven@std.yildiz.edu.tr # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  email: sarperyn@gmail.com # email adress
+  avatar: /assets/img/tanjiro.jpg # change with your own avatar
 
 # URL settings
 url: "https://sarperyn.github.io" #
