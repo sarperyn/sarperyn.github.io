@@ -3,6 +3,7 @@ layout: post
 title:  "Web scraping with Python using Selenium"
 date:   2021-09-29 12:00:00 +0530
 categories: Python Selenium WebScraping
+image: "/web-scraping-python/images"
 TeX: {
   extensions: ["AMSmath.js", "AMSsymbols.js"]
 }
@@ -130,7 +131,7 @@ After clicking the find jobs button, we goes to a page with full of job postings
 ![test image size](images/indeed1.png){:height="100%" width="100%"}
 
 
-![test image size](web-scraping-python/images/indeed2.png){:height="100%" width="100%"}
+![test image size](images/indeed2.png){:height="100%" width="100%"}
 
 ## Function 4
 We run get_page function in this function. Also we click the forward button to go to the next page. Lastly, we create and save our csv file in this function.
