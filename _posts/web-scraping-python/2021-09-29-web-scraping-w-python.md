@@ -127,10 +127,10 @@ def get_page():
 ```
 After clicking the find jobs button, we goes to a page with full of job postings. In this function we click the header of each job and got the company name, job header and job description. The reason of clicking is that the job description is a window which shows up after the clicking the header. So we click in order to get job description. Take a look to the below pictures.
 
-![test image size](/images/indeed1.png){:height="100%" width="100%"}
+![test image size](images/indeed1.png){:height="100%" width="100%"}
 
 
-![test image size](/images/indeed2.png){:height="100%" width="100%"}
+![test image size](web-scraping-python/images/indeed2.png){:height="100%" width="100%"}
 
 ## Function 4
 We run get_page function in this function. Also we click the forward button to go to the next page. Lastly, we create and save our csv file in this function.
@@ -178,7 +178,7 @@ get_data()
 This is a sample of a csv file that we scraped from the website
 
 
-![test image size](/images/sample.png){:height="100%" width="100%"}
+![test image size](images/sample.png){:height="100%" width="100%"}
 
 
 We created this program with my friend Khue. You can find our [repo](https://github.com/sarperyn/indeed_job_scraping.git) and her [github account](https://github.com/taolakhue) by clicking.
