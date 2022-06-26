@@ -4,7 +4,7 @@ description: Articles about statistics, mathematics, machine learning >- # site 
 lang: en-US # default lang
 timezone: Turkey # set your timezone
 image: assets/img/tanjiro.jpg # This image used for Open Graph more info https://ogp.me/
-repo: # https://github.com/piharpi/jekyll-klise  site repo [optional]
+repo: #
 mode: dark # default theme "dark" | "light"
 
 # Profile settings
@@ -15,7 +15,6 @@ author:
   username: sarperyn # general username
   github: sarperyn # github username
   twitter: sarperyn # twitter username
-  #facebook: facebook_username # facebook username
   email: sarperyn@gmail.com # email adress
   avatar: /assets/img/tanjiro.jpg # change with your own avatar
 
@@ -36,7 +35,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
-mathjax :
 
 # Default front matter
 defaults:
