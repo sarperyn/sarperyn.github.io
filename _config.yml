@@ -3,7 +3,7 @@ title: sarperyn # site title
 description: Articles about statistics, mathematics, machine learning >- # site description
 lang: en-US # default lang
 timezone: Turkey # set your timezone
-image: assets/img/tanjiro.jpg # This image used for Open Graph more info https://ogp.me/
+image: assets/img/tanjiro.JPG # This image used for Open Graph more info https://ogp.me/
 repo: # https://github.com/piharpi/jekyll-klise  site repo [optional]
 mode: dark # default theme "dark" | "light"
 
@@ -17,7 +17,7 @@ author:
   twitter: sarperyn # twitter username
   #facebook: facebook_username # facebook username
   email: sarperyn@gmail.com # email adress
-  avatar: /assets/img/tanjiro.jpg # change with your own avatar
+  avatar: /assets/img/tanjiro.JPG # change with your own avatar
 
 # URL settings
 url: "https://sarperyn.github.io" #

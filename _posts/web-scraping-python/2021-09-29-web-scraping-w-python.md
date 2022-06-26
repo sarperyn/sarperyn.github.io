@@ -130,6 +130,9 @@ After clicking the find jobs button, we goes to a page with full of job postings
 </figure>
 
 ![test image size](images/indeed2.png){:height="100%" width="100%"}
+<figure>
+<img src="images/indeed1.png" alt="sample1">
+</figure>
 
 ## Function 4
 We run get_page function in this function. Also we click the forward button to go to the next page. Lastly, we create and save our csv file in this function.
