@@ -3,7 +3,7 @@ title: sarperyn # site title
 description: Articles about statistics, mathematics, machine learning >- # site description
 lang: en-US # default lang
 timezone: Turkey # set your timezone
-image: assets/img/tanjiro.jpg # 
+image: assets/img/tanjiro2.JPG # 
 repo: #
 mode: dark # default theme "dark" | "light"
 
@@ -16,7 +16,7 @@ author:
   github: sarperyn # github username
   twitter: sarperyn # twitter username
   email: sarperyn@gmail.com # email adress
-  avatar: assets/img/tanjiro.jpg # change with your own avatar
+  avatar: assets/img/tanjiro2.JPG # change with your own avatar
 
 # URL settings
 url: "https://sarperyn.github.io" #
