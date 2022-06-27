@@ -2,8 +2,7 @@
 title: About
 permalink: /about/
 layout: page
-excerpt: I'm student of mathematics from Yildiz Technical University, living in Istanbul, Turkey. This blog is mostly about mathematics, statistics and machine learning. Sometimes I may write about other things as well.
+excerpt: exp
 comments: false
 ---
-I'm student of mathematics in Yildiz Technical University, living in Istanbul, Turkey. This blog is mostly about mathematics, statistics and machine learning. Sometimes I may write about other things as well.
-
+Hi. I'm Sarper. I am a mathematics student at Yildiz Technical University in Istanbul, Turkey. I write about mathematics, machine learning. I share my notes and sources I use. Probably you noticed that I am interested in mathematics and machine learning but there is more. To be more spesific, I can count a few things I guess. Nowadays, deep learning, mathematical analysis, probability theory, optimization, abstract algebra are my study fields. For more information about my work, you can look up my resume below.

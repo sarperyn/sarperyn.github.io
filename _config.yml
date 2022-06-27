@@ -3,7 +3,7 @@ title: sarperyn # site title
 description: Articles about statistics, mathematics, machine learning >- # site description
 lang: en-US # default lang
 timezone: Turkey # set your timezone
-image: assets/img/tanjiro2.JPG # 
+image: assets/img/tanjiro.JPG # 
 repo: #
 mode: dark # default theme "dark" | "light"
 
@@ -11,12 +11,13 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Sarper Yurtseven # author name
   bio: >- # tell to the world
-    Hi! I am passionate about many fields of mathematics. I want to share what I learned with you.
+    Hi! Welcome. Take a seat, coffe is brewing.
+    
   username: sarperyn # general username
   github: sarperyn # github username
   twitter: sarperyn # twitter username
   email: sarperyn@gmail.com # email adress
-  avatar: assets/img/tanjiro2.JPG # change with your own avatar
+  avatar: assets/img/tanjiro.JPG # change with your own avatar
 
 # URL settings
 url: "https://sarperyn.github.io" #
