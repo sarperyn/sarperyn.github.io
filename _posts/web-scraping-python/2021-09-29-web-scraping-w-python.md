@@ -3,6 +3,10 @@ layout: post
 title:  "Web scraping with Python using Selenium"
 date:   2021-09-29 12:00:00 +0530
 tags: [python, selenium, web-scraping]
+image1: /images/indeed1.png
+image2: /images/indeed2.png
+image3: /images/indeed3.png
+sample: /images/sample.png
 ---
 
 The program's main purpose is scrape data from a job seeking web site indeed.com. Our program takes 2 input variables called the job and the location. Location is an optional variable it can be stay unfilled or you can type remote for finding the remote jobs. The output is a csv file with three features; company name, job header, job description. You can work with this text data and do nlp operations. It's up to you. Be creative.
@@ -124,14 +128,16 @@ def get_page():
 ```
 After clicking the find jobs button, we goes to a page with full of job postings. In this function we click the header of each job and got the company name, job header and job description. The reason of clicking is that the job description is a window which shows up after the clicking the header. So we click in order to get job description. Take a look to the below pictures.
 
-![test image size](images/indeed1.png){:height="100%" width="100%"}
 <figure>
-<img src="/web-scraping-python/images/indeed1.png" alt="sample1">
+<img src="{{ page.image1 }}" alt="figure1">
 </figure>
 
-![test image size](images/indeed2.png){:height="100%" width="100%"}
 <figure>
-<img src="images/indeed1.png" alt="sample1">
+<img src="{{ page.image2 }}" alt="figure2">
+</figure>
+
+<figure>
+<img src="{{ page.image3 }}" alt="figure3">
 </figure>
 
 ## Function 4
@@ -180,7 +186,9 @@ get_data()
 This is a sample of a csv file that we scraped from the website
 
 
-![test image size](images/sample.png){:height="100%" width="100%"}
+<figure>
+<img src="{{ page.sample }}" alt="sample">
+</figure>
 
 
 We created this program with my friend Khue. You can find our [repo](https://github.com/sarperyn/indeed_job_scraping.git) and her [github account](https://github.com/taolakhue) by clicking.

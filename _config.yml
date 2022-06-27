@@ -3,7 +3,7 @@ title: sarperyn # site title
 description: Articles about statistics, mathematics, machine learning >- # site description
 lang: en-US # default lang
 timezone: Turkey # set your timezone
-image: assets/img/tanjiro.jpg # This image used for Open Graph more info https://ogp.me/
+image: assets/img/tanjiro.jpg # This image used 
 repo: #
 mode: dark # default theme "dark" | "light"
 
@@ -80,8 +80,6 @@ exclude:
   - CHANGELOG.md
   - README.md
   - node_modules
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
   - lighthouse.png
   - klise-*.gem
   - klise.gemspec
@@ -90,4 +88,4 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  #- jekyll-postfiles
+  - jekyll-postfiles
