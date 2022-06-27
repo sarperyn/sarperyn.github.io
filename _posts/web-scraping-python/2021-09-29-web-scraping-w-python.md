@@ -3,10 +3,10 @@ layout: post
 title:  "Web scraping with Python using Selenium"
 date:   2021-09-29 12:00:00 +0530
 tags: [python, selenium, web-scraping]
-image1: images/indeed1.png
-image2: images/indeed2.png
-image3: images/indeed3.png
-sample: images/sample.png
+image1: web-scraping-python/images/indeed1.png
+image2: web-scraping-python/images/indeed2.png
+image3: web-scraping-python/images/indeed3.png
+sample: web-scraping-python/images/sample.png
 ---
 
 The program's main purpose is scrape data from a job seeking web site indeed.com. Our program takes 2 input variables called the job and the location. Location is an optional variable it can be stay unfilled or you can type remote for finding the remote jobs. The output is a csv file with three features; company name, job header, job description. You can work with this text data and do nlp operations. It's up to you. Be creative.
