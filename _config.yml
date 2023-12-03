@@ -1,9 +1,9 @@
 # Site settings
 title: sarperyn # site title
-description: Articles about statistics, mathematics, machine learning >- # site description
+description: Anything about my life >- # site description
 lang: en-US # default lang
 timezone: Turkey # set your timezone
-image: assets/img/bowie.jpg # 
+image: assets/img/menkittens.jpeg# 
 repo: #
 mode: dark # default theme "dark" | "light"
 
@@ -17,7 +17,7 @@ author:
   github: sarperyn # github username
   twitter: sarperyn # twitter username
   email: sarperyn@gmail.com # email adress
-  avatar: assets/img/bowie.jpg # change with your own avatar
+  avatar: assets/img/menkittens.jpeg # change with your own avatar
 
 # URL settings
 url: "https://sarperyn.github.io" #
