@@ -9,7 +9,7 @@ TeX: {
 }
 ---
 
-I came across with this theorem when I was studying ring theory last term. Now I will show you that Gaussian Integers are a Euclidean Domain. Before showing anything, I will give some definitions
+I encountered this theorem during my study of ring theory last term. Now, I'll demonstrate that Gaussian Integers form a Euclidean Domain. Before delving into the proof, let me provide some necessary definitions.
 
 Euclidean Domain
 ------------
