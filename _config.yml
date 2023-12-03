@@ -3,7 +3,7 @@ title: sarperyn # site title
 description: Anything about my life >- # site description
 lang: en-US # default lang
 timezone: Turkey # set your timezone
-image: assets/img/menkittens.jpeg# 
+image: assets/img/menkittens.jpeg
 repo: #
 mode: dark # default theme "dark" | "light"
 
