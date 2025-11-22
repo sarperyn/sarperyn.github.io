@@ -20,7 +20,7 @@ export const Home: React.FC = () => {
                 Dont Know <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
                   What to Put
-                </span>  Help! 
+                </span> Help! 
               </h1>
             </div>
             <p className="text-slate-400 text-lg max-w-lg mt-4">
