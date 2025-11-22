@@ -5,15 +5,15 @@ export const About: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto pb-24 md:pb-0 animate-fade-in">
       <div className="bg-zinc-850/50 border border-zinc-800 rounded-3xl overflow-hidden backdrop-blur-sm shadow-xl">
-        <div className="h-48 bg-gradient-to-r from-indigo-900 via-purple-900 to-slate-900 relative">
-             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+        <div className="h-48 bg-cover bg-center relative" style={{backgroundImage: 'url(/lake_como.jpg)'}}>
+             <div className="absolute inset-0 bg-black/30"></div>
         </div>
         
         <div className="px-8 pb-8">
           <div className="relative -mt-20 mb-6 flex flex-col md:flex-row items-end md:items-end gap-6">
             <div className="w-40 h-40 rounded-3xl bg-slate-800 p-1.5 ring-4 ring-slate-900 shadow-2xl">
               <img 
-                src="https://picsum.photos/300/300" 
+                src="/profile.jpeg" 
                 alt="Profile" 
                 className="w-full h-full rounded-2xl object-cover bg-slate-700" 
               />
@@ -48,24 +48,31 @@ export const About: React.FC = () => {
                   Volunteer & Community
                 </h3>
                 <div className="space-y-4">
-                  <div className="bg-slate-800/30 p-4 rounded-xl border border-slate-700/30">
+                  <div className="bg-slate-800/30 p-4 rounded-xl border border-slate-700/30 group hover:border-slate-600/50 transition-colors">
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="font-bold text-slate-200">inzva AI Team Member</h4>
-                      <span className="text-xs text-slate-500">2022 - Present</span>
+                      <a href="https://github.com/inzva/inzva-DLSG" target="_blank" rel="noopener noreferrer" className="p-1.5 rounded-lg bg-slate-700/50 group-hover:bg-slate-600 transition-colors text-slate-400 hover:text-white">
+                        <Github className="w-4 h-4" />
+                      </a>
                     </div>
-                    <p className="text-sm text-slate-400 mb-2">
-                      Co-organized Google ML Bootcamps and led the development of a deep learning lecture series.
-                    </p>
+                    <div className="flex justify-between items-start">
+                      <p className="text-sm text-slate-400 mb-2">
+                        Co-organized Google ML Bootcamps and led the development of a deep learning lecture series.
+                      </p>
+                      <span className="text-xs text-slate-500 whitespace-nowrap ml-2">2022 - Present</span>
+                    </div>
                   </div>
                   
-                  <div className="bg-slate-800/30 p-4 rounded-xl border border-slate-700/30">
+                  <div className="bg-slate-800/30 p-4 rounded-xl border border-slate-700/30 group hover:border-slate-600/50 transition-colors">
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="font-bold text-slate-200">Matematik Dunyasi Archive Team</h4>
-                      <span className="text-xs text-slate-500">2021 - 2024</span>
                     </div>
-                    <p className="text-sm text-slate-400">
-                      Transcribed historical mathematical content into LaTeX, making it accessible to a broader audience.
-                    </p>
+                    <div className="flex justify-between items-start">
+                      <p className="text-sm text-slate-400">
+                        Transcribed historical mathematical content into LaTeX, making it accessible to a broader audience.
+                      </p>
+                      <span className="text-xs text-slate-500 whitespace-nowrap ml-2">2021 - 2024</span>
+                    </div>
                   </div>
                 </div>
               </div>

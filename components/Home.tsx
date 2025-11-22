@@ -17,25 +17,25 @@ export const Home: React.FC = () => {
                 Portfolio 2024
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-100 leading-tight mb-4">
-                Integrating <br/>
+                Exploring <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                  Math & AI
-                </span> to solve problems.
+                  Mathematics & AI
+                </span> for Discovery
               </h1>
             </div>
             <p className="text-slate-400 text-lg max-w-lg mt-4">
-              I'm a Mathematical Engineer and Machine Learning specialist focused on Deep Learning, Generative AI, and Computational Science.
+              I'm a researcher passionate about deep learning, generative models, and computational science. I believe mathematics is a lens through which we can understand and reshape the world around us.
             </p>
           </div>
         </div>
 
         <div className="bg-zinc-850/50 p-8 rounded-3xl border border-zinc-800 backdrop-blur-sm flex flex-col justify-center items-center text-center gap-4 hover:border-indigo-500/30 transition-colors duration-300">
           <div className="w-24 h-24 rounded-full bg-slate-700 overflow-hidden ring-4 ring-slate-800 shadow-xl mb-2 relative">
-             <img src="https://picsum.photos/200/200" alt="Avatar" className="w-full h-full object-cover" />
+             <img src="/profile.jpeg" alt="Avatar" className="w-full h-full object-cover" />
           </div>
           <div>
             <h2 className="text-2xl font-bold text-slate-100">Sarper Yurtseven</h2>
-            <p className="text-indigo-400 font-medium">Mathematical Engineer</p>
+            <p className="text-indigo-400 font-medium">Researcher</p>
           </div>
           <div className="flex items-center gap-2 text-slate-400 text-sm mt-1">
             <MapPin className="w-4 h-4" />
@@ -143,21 +143,21 @@ export const Home: React.FC = () => {
             </h3>
             
             <div className="space-y-6">
-              <div className="group">
+              <a href="https://openreview.net/pdf?id=GW3h79mxrF" target="_blank" rel="noopener noreferrer" className="group block hover:text-indigo-400 transition-colors cursor-pointer">
                 <h4 className="text-slate-200 text-sm font-medium leading-snug group-hover:text-indigo-400 transition-colors">
                   Higher-Order Molecular Learning: The Cellular Transformer
                 </h4>
                 <p className="text-xs text-slate-500 mt-1">ICLR 2025 Workshop on GEM</p>
-              </div>
+              </a>
 
               <div className="border-t border-slate-800 my-4" />
 
-              <div className="group">
+              <a href="https://www.researchgate.net/publication/393390923_Sa2056_AN_AUTOMATED_SEGMENTATION_PIPELINE_FOR_QUANTIFYING_GASTRIC_MOTILITY_IN_HUMANS_USING_4D_CINE_MAGNETIC_RESONANCE_IMAGING" target="_blank" rel="noopener noreferrer" className="group block hover:text-indigo-400 transition-colors cursor-pointer">
                 <h4 className="text-slate-200 text-sm font-medium leading-snug group-hover:text-indigo-400 transition-colors">
                   An Automated Segmentation Pipeline for Gastric Motility
                 </h4>
                 <p className="text-xs text-slate-500 mt-1">Gastroenterology, Elsevier, 2025</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
