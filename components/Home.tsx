@@ -19,8 +19,8 @@ export const Home: React.FC = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-100 leading-tight mb-4">
                 Dont Know <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                  What 
-                </span> to Put 
+                  What to Put
+                </span>  Help! 
               </h1>
             </div>
             <p className="text-slate-400 text-lg max-w-lg mt-4">
@@ -52,7 +52,7 @@ export const Home: React.FC = () => {
             <div className="p-2 bg-slate-800 rounded-lg">
               <Code2 className="w-5 h-5 text-indigo-400" />
             </div>
-            <h3 className="text-lg font-semibold text-slate-200">Tech Arsenal</h3>
+            <h3 className="text-lg font-semibold text-slate-200">Things That I am Confident</h3>
           </div>
           <div className="flex flex-wrap gap-2">
             {SKILLS.map((skill) => (
