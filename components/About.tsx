@@ -84,28 +84,28 @@ export const About: React.FC = () => {
                   <div className="p-2 bg-slate-700 rounded-lg group-hover:bg-slate-600 transition-colors">
                     <Github className="w-5 h-5" />
                   </div>
-                  <span className="font-medium">GitHub</span>
+                  <span className="font-medium">github</span>
                 </a>
                 
                 <a href="https://www.linkedin.com/in/sarper-yurtseven/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
                   <div className="p-2 bg-blue-900/30 rounded-lg group-hover:bg-blue-800/40 transition-colors">
                     <Linkedin className="w-5 h-5 text-blue-400" />
                   </div>
-                  <span className="font-medium">LinkedIn</span>
+                  <span className="font-medium">linkedIn</span>
                 </a>
 
                 <a href="mailto:sarperyn@gmail.com" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
                   <div className="p-2 bg-emerald-900/30 rounded-lg group-hover:bg-emerald-800/40 transition-colors">
                     <Mail className="w-5 h-5 text-emerald-400" />
                   </div>
-                  <span className="font-medium">Email Me</span>
+                  <span className="font-medium">email</span>
                 </a>
 
                 <a href="./curriculum.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
                   <div className="p-2 bg-indigo-900/30 rounded-lg group-hover:bg-indigo-800/40 transition-colors">
                     <FileText className="w-5 h-5 text-indigo-400" />
                   </div>
-                  <span className="font-medium">Curriculum</span>
+                  <span className="font-medium">curriculum</span>
                 </a>
               </div>
               
