@@ -23,7 +23,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentView, setView }) => {
             <Hexagon className="text-white w-6 h-6 fill-indigo-500" />
           </div>
           <span className="hidden lg:block text-xl font-bold text-slate-100 tracking-tight">
-            DevFolio
+            sarperyn
           </span>
         </div>
 

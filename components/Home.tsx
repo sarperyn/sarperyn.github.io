@@ -41,7 +41,10 @@ export const Home: React.FC = () => {
             <MapPin className="w-4 h-4" />
             <span>Milan, Italy</span>
           </div>
-          <button className="mt-4 px-6 py-2 bg-slate-100 text-slate-900 rounded-full font-semibold hover:bg-indigo-400 hover:text-white transition-all duration-300 w-full shadow-lg shadow-white/5 hover:shadow-indigo-500/25">
+          <button 
+            onClick={() => window.open('./curriculum.pdf', '_blank')}
+            className="mt-4 px-6 py-2 bg-slate-100 text-slate-900 rounded-full font-semibold hover:bg-indigo-400 hover:text-white transition-all duration-300 w-full shadow-lg shadow-white/5 hover:shadow-indigo-500/25"
+          >
             Download CV
           </button>
         </div>

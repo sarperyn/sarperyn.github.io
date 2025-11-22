@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, BookOpen, Award } from 'lucide-react';
+import { Github, Linkedin, Mail, BookOpen, Award, FileText } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (
@@ -20,22 +20,25 @@ export const About: React.FC = () => {
             </div>
             <div className="mb-2">
               <h2 className="text-3xl font-bold text-slate-100">Sarper Yurtseven</h2>
-              <p className="text-indigo-400 text-lg">Mathematical Engineer & Researcher</p>
+              <p className="text-indigo-400 text-lg">Applied Mathematician & Researcher</p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
             <div className="md:col-span-2 space-y-6">
               <h3 className="text-xl font-bold text-slate-200 border-b border-slate-700/50 pb-2">About Me</h3>
-              <div className="prose prose-invert prose-slate max-w-none text-slate-400 leading-relaxed">
+              <div className="prose prose-invert prose-slate max-w-none text-slate-400 leading-relaxed space-y-4">
                 <p>
-                  Hello! I'm Sarper, a Mathematical Engineering Master's student at Politecnico di Milano. My academic and professional journey has been driven by a deep curiosity for Computational Science and Machine Learning.
+                  Hi, I'm Sarper. I enjoy sharing moments from my life, along with some science and mathematics-related content. 
+                  I also post my notes and share the resources I use. Hopefully, i will keep it updated as much as I can keep.
+                  I am mostly interested in solving science problems.
                 </p>
                 <p>
-                  I specialize in <strong>Deep Learning</strong>, <strong>Generative AI</strong>, and <strong>Computer Vision</strong>. I have actively contributed to research groups at the University of Barcelona, Georgia Tech, and Princeton, working on cutting-edge topics like Cellular Transformers, Diffusion Models, and Exoplanet Detection.
+                  I am a Master's student at Politecnico di Milano, pursuing a degree in <strong>Mathematical Engineering</strong>. My bachelor's degree was in Mathematics, and this combined my passion both for engineering and mathematics.
                 </p>
                 <p>
-                  Beyond research, I am an open-source enthusiast, having contributed to significant projects through Google Summer of Code, and I am passionate about sharing knowledge through workshops and lecture series.
+                  I love traveling. I've visited several places across Europe and West Asia, but there are still many more to explore. I plan to use my next travel money to visit Italy, and I hope to see all of Italy before I finish my master's degree. We'll see.
+                  I'm also a big fan of Star Wars and enjoy reading manga and watching anime. My favorite manga is Berserk, and I consider series like Attack on Titan, Neon Genesis Evangelion, Violet Evergarden, and Claymore to be masterpieces—so good that I wish I could forget them just to experience them again.
                 </p>
               </div>
               
@@ -71,25 +74,32 @@ export const About: React.FC = () => {
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-slate-200 border-b border-slate-700/50 pb-2">Connect</h3>
               <div className="flex flex-col gap-3">
-                <a href="#" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
+                <a href="https://github.com/sarperyn" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
                   <div className="p-2 bg-slate-700 rounded-lg group-hover:bg-slate-600 transition-colors">
                     <Github className="w-5 h-5" />
                   </div>
                   <span className="font-medium">GitHub</span>
                 </a>
                 
-                <a href="#" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
+                <a href="https://www.linkedin.com/in/sarper-yurtseven/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
                   <div className="p-2 bg-blue-900/30 rounded-lg group-hover:bg-blue-800/40 transition-colors">
                     <Linkedin className="w-5 h-5 text-blue-400" />
                   </div>
                   <span className="font-medium">LinkedIn</span>
                 </a>
 
-                <a href="mailto:hello@example.com" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
+                <a href="mailto:sarperyn@gmail.com" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
                   <div className="p-2 bg-emerald-900/30 rounded-lg group-hover:bg-emerald-800/40 transition-colors">
                     <Mail className="w-5 h-5 text-emerald-400" />
                   </div>
                   <span className="font-medium">Email Me</span>
+                </a>
+
+                <a href="./curriculum.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-700 text-slate-300 hover:text-white transition-all border border-slate-700/50 group">
+                  <div className="p-2 bg-indigo-900/30 rounded-lg group-hover:bg-indigo-800/40 transition-colors">
+                    <FileText className="w-5 h-5 text-indigo-400" />
+                  </div>
+                  <span className="font-medium">Curriculum</span>
                 </a>
               </div>
               
