@@ -14,17 +14,18 @@ export const Home: React.FC = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
-                Portfolio 2024
+                {/* Portfolio 2024 */}
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-100 leading-tight mb-4">
-                Exploring <br/>
+                Will <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                  Mathematics & AI
-                </span> for Discovery
+                  Learn
+                </span> Forever 
               </h1>
             </div>
             <p className="text-slate-400 text-lg max-w-lg mt-4">
-              I'm a researcher passionate about deep learning, generative models, and computational science. I believe mathematics is a lens through which we can understand and reshape the world around us.
+              I believe mathematics is the greatest thing the human mind has created. Mathematicians keep expanding it, while engineers, physicists, and scientists read and write it.
+              To me, it’s the world’s source code: reading it shows how reality works, and writing it lets us build things that are meant to work.
             </p>
           </div>
         </div>
@@ -41,12 +42,6 @@ export const Home: React.FC = () => {
             <MapPin className="w-4 h-4" />
             <span>Milan, Italy</span>
           </div>
-          <button 
-            onClick={() => window.open('./curriculum.pdf', '_blank')}
-            className="mt-4 px-6 py-2 bg-slate-100 text-slate-900 rounded-full font-semibold hover:bg-indigo-400 hover:text-white transition-all duration-300 w-full shadow-lg shadow-white/5 hover:shadow-indigo-500/25"
-          >
-            Download CV
-          </button>
         </div>
       </div>
 
