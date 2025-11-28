@@ -17,10 +17,10 @@ export const Home: React.FC = () => {
                 {/* Portfolio 2024 */}
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-100 leading-tight mb-4">
-                Dont Know <br/>
+                <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-                  What to Put
-                </span> Help! 
+                  Welcome!
+                </span>  
               </h1>
             </div>
             <p className="text-slate-400 text-lg max-w-lg mt-4">
