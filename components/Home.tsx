@@ -51,7 +51,7 @@ export const Home: React.FC = () => {
             <div className="p-2 bg-slate-800 rounded-lg">
               <Code2 className="w-5 h-5 text-indigo-400" />
             </div>
-            <h3 className="text-lg font-semibold text-slate-200">Things That I am Confident</h3>
+            <h3 className="text-lg font-semibold text-slate-200">Things that I am confident with</h3>
           </div>
           <div className="flex flex-wrap gap-2">
             {SKILLS.map((skill) => (
