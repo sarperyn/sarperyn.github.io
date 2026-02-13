@@ -24,8 +24,7 @@ export const Home: React.FC = () => {
               </h1>
             </div>
             <p className="text-slate-400 text-lg max-w-lg mt-4">
-              I believe mathematics is the greatest thing the human mind has created. Mathematicians keep expanding it, while engineers, physicists, and scientists read and write it.
-              To me, it’s the world’s source code: reading it shows how reality works, and writing it lets us build things that are meant to work.
+              I believe mathematics is the greatest thing the human mind has created. I believe in mathematics.
             </p>
           </div>
         </div>

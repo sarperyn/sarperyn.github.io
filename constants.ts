@@ -16,11 +16,12 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     id: '1',
     role: 'Machine Learning Engineer',
-    company: 'Entegral Integration',
+    company: 'Rasyona',
     period: 'Nov 2025 - Present',
     description: [
-      'Building LLM-driven orchestration and tooling for SAP Basis automation.',
-      'Integrating LangChain/LangGraph agents with databases such as Prometheus and Elasticsearch.'
+      'Building and deploying LLM-driven orchestration.', 
+      'Creating tools for SAP Basis automation operations.',
+      'Integrating LangChain/LangGraph agents.'
     ]
   },
   {
