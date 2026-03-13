@@ -1,4 +1,5 @@
 export type ViewState = 'home' | 'about' | 'notes';
+export type Theme = 'dark' | 'light';
 
 export interface Note {
   id: string;
@@ -6,7 +7,7 @@ export interface Note {
   date: string;
   category: string;
   content: string;
-  tags: string[];
+  tags?: string[];
 }
 
 export interface ExperienceItem {

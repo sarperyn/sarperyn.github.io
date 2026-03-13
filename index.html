@@ -6,7 +6,7 @@
     <title>sarperyn</title>
     <!-- We keep Tailwind via CDN for simplicity in this setup, 
          but in a larger project you might want to install it via npm -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <script>
       tailwind.config = {
         darkMode: 'class',
@@ -33,7 +33,7 @@
       body {
         margin: 0;
         font-family: 'Inter', system-ui, -apple-system, sans-serif;
-        background-color: #0f172a;
+        background-color: #000000;
         color: #e2e8f0;
         -webkit-font-smoothing: antialiased;
       }
@@ -42,14 +42,14 @@
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #0f172a; 
+        background: #000000; 
       }
       ::-webkit-scrollbar-thumb {
         background: #334155; 
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #475569; 
+        background: #136be6; 
       }
     </style>
   <script type="importmap">

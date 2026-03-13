@@ -5,9 +5,8 @@ export const SKILLS: Skill[] = [
   { name: 'PyTorch', category: 'backend' },
   { name: 'Firedrake', category: 'backend'},
   { name: 'C++' , category: 'backend'},
-  { name: 'petsc', category: 'backend'},
+  { name: 'MATLAB', category: 'backend'},
   { name: 'MPI', category: 'backend'},
-  { name: 'PHOENICS', category: 'design'},
   { name: 'LaTeX', category: 'tools' },
   { name: 'Docker', category: 'tools' },
 ];
@@ -15,7 +14,7 @@ export const SKILLS: Skill[] = [
 export const EXPERIENCE: ExperienceItem[] = [
   {
     id: '1',
-    role: 'Machine Learning Engineer',
+    role: 'AI Software Engineer',
     company: 'Rasyona',
     period: 'Nov 2025 - Present',
     description: [
@@ -69,13 +68,10 @@ export const EXPERIENCE: ExperienceItem[] = [
 export const NOTES_DATA: Note[] = [
   {
     id: '1',
-    title: 'Recommended Resources',
-    date: 'Nov 22, 2025',
+    title: 'Mathematics resources',
+    date: 'Updated on Nov 22, 2025',
     category: 'Resources',
-    tags: ['Mathematics', 'Machine Learning', 'Learning Materials'],
-    content: `This page contains links to some useful resources. I'll keep updating this page as much as I can. Most of the books are well-known.
-
-## Mathematics
+    content: `This page contains links to some useful resources.
 
 ### Videos and Playlists
 
@@ -89,22 +85,15 @@ export const NOTES_DATA: Note[] = [
 | Group theory, abstraction, and the 196,883-dimensional monster | A great video about the 'monster group'. A 3blue1brown classic. | [Watch](https://www.youtube.com/watch?v=mH0oCDa74tE&list=PLTOG9kHXmwlGeO2ZcZpYWndVZNO1UxLnx&index=2) |
 | Visual Group Theory course | One of the best lecture series on the internet. | [Watch](https://www.youtube.com/playlist?list=PLwV-9DG53NDxU337smpTwm6sef4x-SCLv) |
 
+
+
 ### Textbooks
 
 | Title | Description | Link |
 |-------|-------------|------|
 | Abstract Mathematics | For those who want to begin with abstract mathematics. | [Read](https://www.people.vcu.edu/~rhammack/BookOfProof/Main.pdf) |
 | Elementary Differential Geometry | Great book to start learning differential geometry. It's easy and well-written. | [Read](http://staff.ustc.edu.cn/~spliu/2018DG/ONeill.pdf) |
-
-## Machine Learning
-
-### Textbooks
-
-| Title | Description | Link |
-|-------|-------------|------|
-| An Introduction to Statistical Learning | Classic introduction to statistical learning methods. | [Read](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf) |
-| Deep Learning | Classic deep learning book. | [Read](https://www.deeplearningbook.org) |
-| Deep Learning Book (UDL) | My favorite deep learning book. | [Read](https://udlbook.github.io/udlbook/) |
-| Mathematics for Machine Learning | Mathematics fundamentals of machine learning. | [Read](https://mml-book.github.io/book/mml-book.pdf) |`
-  }
+`
+  },
 ];
+
