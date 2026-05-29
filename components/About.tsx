@@ -49,15 +49,10 @@ export const About: React.FC = () => {
                   : 'text-gray-700'
               }`}>
                 <p>
-                  Hi, I'm Sarper. I enjoy sharing moments from my life, along with some science and mathematics-related content. 
-                  I also post my notes and share the resources I use. Hopefully, i will keep it updated as much as I can keep.
+                  Hi, I'm Sarper. I am a Master's student at Politecnico di Milano
                 </p>
                 <p>
-                  I am a Master's student at Politecnico di Milano, pursuing a degree in Mathematical Engineering. My bachelor's degree was in Mathematics, and pursuing an engineering degree combined my passion both for engineering and mathematics.
-                </p>
-                <p>
-                  I love traveling. I've visited several places across Europe and West Asia, but there are still many more to explore. I plan to use my next travels to visit Italy, and I hope to see all of Italy before I finish my master's degree. We'll see.
-                  I'm also a big fan of Star Wars and enjoy reading manga and watching anime. My favorite manga is Berserk, and I consider series like Attack on Titan, Neon Genesis Evangelion, Violet Evergarden, and Claymore to be masterpieces—so good that I wish I could forget them just to experience them again.
+                  I love traveling, climbing, and sleeping. I'm also a big fan of Star Wars and reading manga and watching anime. My favorite manga is Berserk, and I consider series like Attack on Titan, Neon Genesis Evangelion, Violet Evergarden, and Claymore to be masterpieces—so good that I wish I could forget them just to experience them again.
                 </p>
               </div>
               
@@ -199,7 +194,7 @@ export const About: React.FC = () => {
                  <p className={`text-sm ${
                    theme === 'dark' ? 'text-gray-400' : 'text-gray-700'
                  }`}>
-                    Focusing on numerical PDE methods, deep learning–based PDE solvers, and model order reduction.
+                    Focusing on numerical PDE methods, deep learning–based PDE solvers, model order reduction, surrogate modeling.
                  </p>
               </div>
             </div>
