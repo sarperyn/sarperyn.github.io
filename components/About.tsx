@@ -32,7 +32,7 @@ export const About: React.FC = () => {
             </div>
             <div className="mb-2">
               <h2 className={`text-3xl font-bold ${theme === 'dark' ? 'text-gray-100' : 'text-gray-900'}`}>Sarper Yurtseven</h2>
-              <p className={`text-lg ${theme === 'dark' ? 'text-indigo-400' : 'text-blue-600'}`}>Applied Mathematician & Researcher</p>
+              <p className={`text-lg ${theme === 'dark' ? 'text-indigo-400' : 'text-blue-600'}`}>Mathematician & Researcher</p>
             </div>
           </div>
 
